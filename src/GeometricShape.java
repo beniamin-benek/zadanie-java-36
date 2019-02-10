@@ -1,2 +1,2 @@
-abstract class GeometricShape {
+abstract class GeometricShape extends Shape2D {
 }
