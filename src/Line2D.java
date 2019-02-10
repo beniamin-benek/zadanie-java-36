@@ -44,4 +44,8 @@ class Line2D extends Shape2D {
         this.y1 = y1;
     }
 
+    @Override
+    public String toString() {
+        return "A: [" + x0 + "," + y0 + "], B: [" + x1 + "," + y1 + "]";
+    }
 }

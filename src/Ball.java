@@ -14,4 +14,8 @@ class Ball extends Shape3D {
         this.radius = radius;
     }
 
+    @Override
+    public String toString() {
+        return "r = " + radius;
+    }
 }

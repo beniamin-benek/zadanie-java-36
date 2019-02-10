@@ -13,4 +13,9 @@ class Cube extends Shape3D {
     public void setA(double a) {
         this.a = a;
     }
+
+    @Override
+    public String toString() {
+        return "a = " + a;
+    }
 }

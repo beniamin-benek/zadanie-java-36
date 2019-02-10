@@ -14,4 +14,8 @@ class Circle extends GeometricShape {
         this.radius = radius;
     }
 
+    @Override
+    public String toString() {
+        return "r = " + radius;
+    }
 }
